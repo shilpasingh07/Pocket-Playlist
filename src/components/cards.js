@@ -1,5 +1,19 @@
 import React from 'react';
 
+/*const playMusic=()=>{
+    isPlaying= true;
+    music.play();
+    play.classList.replace("fa-play, fa-pause");
+};
+const pauseMusic=()=>{
+    isPlaying= false;
+    music.pause();
+    play.classList.replace("fa-pause, fa-play");
+};
+play.addEventListener("click", ()=>{
+    isPlaying ? pauseMusic() : playMusic();
+});*/
+
 function Cards(props){
     return(
         <>
@@ -10,9 +24,12 @@ function Cards(props){
         <div className='card_info col-12'>
         <h3 className='card_title'> {props.name} </h3>
         <div className='card_aud col-12'>
-        <audio controls>
+        <audio>
         <source src={props.audio} type="audio/mp3"></source>
         </audio>
+        <div>
+        <i className="fas fa-play main-button"></i>
+        </div>
         </div>
         </div>
         </div>
