@@ -26,7 +26,7 @@ function Cards(props){
         <div className='card_aud col-12'>
         <audio>
         <source src={props.audio} type="audio/mp3"></source>
-        </audio>
+        </audio controls>
         <div>
         <i className="fas fa-play main-button"></i>
         </div>
