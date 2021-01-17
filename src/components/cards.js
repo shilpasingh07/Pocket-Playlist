@@ -3,7 +3,7 @@ import React from 'react';
 function Cards(props){
     return(
         <>
-        <div className='card col-lg-2 col-md-6'>
+        <div className='card col-lg-2 col-md-4'>
         <div className='card_pos col-12' >
         <img src={props.poster} alt={props.name} className='card_img'></img>
         </div>
