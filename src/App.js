@@ -1,24 +1,29 @@
-import logo from './logo.svg';
+import React from 'react';
+import ReactDOM from 'react-dom';
 import './App.css';
+import Nav from './components/navbar';
+import Cards from './components/cards';
+import Foot from './components/footer';
+import assets from './source';
+
+const ncard =(val)=>{
+  return(
+    <Cards
+    key={val.id}
+    name={val.name}
+    poster={val.poster}
+    audio={val.audio}
+    />
+  );
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Nav />
+    {assets.map(ncard)}
+    <Foot />
+    </>
   );
 }
 
