@@ -24,12 +24,9 @@ function Cards(props){
         <div className='card_info col-12'>
         <h3 className='card_title'> {props.name} </h3>
         <div className='card_aud col-12'>
-        <audio>
+        <audio controls>
         <source src={props.audio} type="audio/mp3"></source>
-        </audio controls>
-        <div>
-        <i className="fas fa-play main-button"></i>
-        </div>
+        </audio>
         </div>
         </div>
         </div>
