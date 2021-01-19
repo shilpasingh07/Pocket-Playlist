@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Pocket-Playlist/static/css/main.4d7657b6.chunk.css",
+    "main.js": "/Pocket-Playlist/static/js/main.748680d7.chunk.js",
+    "main.js.map": "/Pocket-Playlist/static/js/main.748680d7.chunk.js.map",
+    "runtime-main.js": "/Pocket-Playlist/static/js/runtime-main.838d8698.js",
+    "runtime-main.js.map": "/Pocket-Playlist/static/js/runtime-main.838d8698.js.map",
+    "static/css/2.1a02f21c.chunk.css": "/Pocket-Playlist/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.820240cf.chunk.js": "/Pocket-Playlist/static/js/2.820240cf.chunk.js",
+    "static/js/2.820240cf.chunk.js.map": "/Pocket-Playlist/static/js/2.820240cf.chunk.js.map",
+    "static/js/3.606dc6d7.chunk.js": "/Pocket-Playlist/static/js/3.606dc6d7.chunk.js",
+    "static/js/3.606dc6d7.chunk.js.map": "/Pocket-Playlist/static/js/3.606dc6d7.chunk.js.map",
+    "index.html": "/Pocket-Playlist/index.html",
+    "static/css/2.1a02f21c.chunk.css.map": "/Pocket-Playlist/static/css/2.1a02f21c.chunk.css.map",
+    "static/css/main.4d7657b6.chunk.css.map": "/Pocket-Playlist/static/css/main.4d7657b6.chunk.css.map",
+    "static/js/2.820240cf.chunk.js.LICENSE.txt": "/Pocket-Playlist/static/js/2.820240cf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.838d8698.js",
+    "static/css/2.1a02f21c.chunk.css",
+    "static/js/2.820240cf.chunk.js",
+    "static/css/main.4d7657b6.chunk.css",
+    "static/js/main.748680d7.chunk.js"
+  ]
+}
