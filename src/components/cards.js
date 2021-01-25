@@ -1,18 +1,5 @@
 import React from 'react';
-
-/*const playMusic=()=>{
-    isPlaying= true;
-    music.play();
-    play.classList.replace("fa-play, fa-pause");
-};
-const pauseMusic=()=>{
-    isPlaying= false;
-    music.pause();
-    play.classList.replace("fa-pause, fa-play");
-};
-play.addEventListener("click", ()=>{
-    isPlaying ? pauseMusic() : playMusic();
-});*/
+import 'font-awesome/css/font-awesome.css';
 
 function Cards(props){
     return(
