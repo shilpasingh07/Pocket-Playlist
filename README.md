@@ -5,7 +5,7 @@ Here, I'm presenting you different views of this responsive music playing app.
 
 ## Desktop View
 
-![Desktop View](Pocket_Playlist_Desktop.PNG)
+![Desktop View](Pocket_Playlist_Window.PNG)
 
 ## Mobile View
 
